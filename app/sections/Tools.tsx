@@ -1,7 +1,7 @@
 import React from "react";
 import "../animations/animate.css";
-import AnimatedBody from "../animations/AnimatedBody";
-import AnimatedTitle from "../animations/AnimatedTitle";
+import AnimatedBody from "../animations/AnimatedBody.tsx";
+import AnimatedTitle from "../animations/AnimatedTitle.tsx";
 import {
     SiGit,
     SiGithub,SiPostgresql,SiMysql,
@@ -19,7 +19,7 @@ const Tools = () => {
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
                 <AnimatedTitle
-                    text={"TOOLS IM USING."}
+                    text={"TOOLS I AM USING."}
                     className={
                         "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
@@ -45,7 +45,6 @@ const Tools = () => {
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
-                                <SiPostgresql size={50}/>
                                 <SiMysql size={50}/>
                                 <SiMongodb size={50}/>
                                 <SiNodedotjs size={50}/>

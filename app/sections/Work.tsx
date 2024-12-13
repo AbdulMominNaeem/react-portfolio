@@ -1,4 +1,4 @@
-import ProjectGrid from "../components/work/ProjectGrid";
+import ProjectGrid from "../components/work/ProjectGrid.tsx";
 import React from "react";
 
 const Work = () => {
@@ -14,6 +14,6 @@ const Work = () => {
             <ProjectGrid />
         </section>
     );
-};
+}; 
 
 export default Work;

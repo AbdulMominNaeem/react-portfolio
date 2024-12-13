@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-import Logo from "../svg/Logo";
+import Logo from "../svg/Logo.tsx";
 
 const PreLoader: React.FC = () => {
     useEffect(() => {
@@ -95,10 +95,10 @@ const PreLoader: React.FC = () => {
                     height: "60px",
                 }}
             >
-                <span>Web Developer</span>
-                <span> / </span>
+                <span>Website Presented By</span>
+                <span style={{fontSize:100}} > / </span>
                
-                <span className="flex items-center justify-center gap-3"> Building  <Logo width={30} height={30} /> Eldora UI</span>
+                <span className="flex items-center justify-center gap-3"> Abdul Momin</span>
                 <div className="sub hidden"></div>
             </div>
         </div>

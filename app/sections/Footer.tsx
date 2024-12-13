@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "next/link.js";
 import { motion } from "framer-motion";
-import AnimatedBody from "../animations/AnimatedBody";
+import AnimatedBody from "../animations/AnimatedBody.tsx";
 import React from "react";
 
 const Footer = () => {
@@ -18,12 +18,12 @@ const Footer = () => {
                 <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
                     <AnimatedBody text={"Design & Deployed by"} className={"m-0 p-0"} />
                     <Link
-                        href="https://github.com/karthikmudunuri/eldoraui"
+                        href="https://github.com/AbdulMominNaeem/"
                         target="_blank"
                         aria-label="Eldora UI Github"
                     >
                         <span className="underline underline-offset-2 hover:no-underline">
-                            <AnimatedBody text={"karthikmudunuri"} className={"m-0 p-0"} />
+                            <AnimatedBody text={"Abdul Momin"} className={"m-0 p-0"} />
                         </span>{" "}
                     </Link>
                 </div>
