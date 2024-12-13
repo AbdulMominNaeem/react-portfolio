@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <a href="https://github.com/karthikmudunuri/eldoraui">
 
@@ -69,3 +70,6 @@ Minimalist developer portfolio using Next.js 14, React, TailwindCSS, Framer moti
 # License
 
 Licensed under the [MIT license](https://github.com/karthikmudunuri/portfolio-template/blob/main/LICENSE.md).
+=======
+# react-portfolio
+>>>>>>> origin/main
