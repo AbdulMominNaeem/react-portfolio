@@ -1,10 +1,7 @@
 <!-- ABOUT THE TEMPLATE -->
 
 <div align="center">
-
- <img width="1425" alt="Abdul Momin Portfolio" src="https://abdulmominportfolio.vercel.app/">
-
- 
+![image](https://github.com/user-attachments/assets/33c69cc1-3d1a-4ba7-a77c-2eff98b4e7bd) 
 </div>
 
 # Portfolio 
