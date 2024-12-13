@@ -1,7 +1,7 @@
 <!-- ABOUT THE TEMPLATE -->
 
 <div align="center">
-![image](https://github.com/user-attachments/assets/33c69cc1-3d1a-4ba7-a77c-2eff98b4e7bd) 
+  <img src="Screenshot 2024-12-13 203915.png" alt="Abdul Momin Portfolio">
 </div>
 
 # Portfolio 
